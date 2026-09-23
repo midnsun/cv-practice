@@ -120,7 +120,7 @@ python .\ImageProcessing.py -i test_image.png -o test_fadecolor.png -f tape --pa
 
 1. **Использование:**
 ```bash
-python .\ImageProcessing.py -i test_image.png -o test_matte.png -f matte --params scale=0.9 feather=0.15 fill_color=(255, 255, 255)
+python .\ImageProcessing.py -i test_image.png -o test_matte.png -f matte --params scale=0.9 feather=0.15 fill_color=255 255 255
 ```
 Принимает опциональные параметры `scale` (от 0.1 до 1, по умолчанию 0.9) - отступ от границы изображения, `feather` (значения от 0.001 до 0.5, по умолчанию 0.15) - "плавность" фильтра и `fill_color` (кортеж RGB, по умолчанию белый) - цвет заливки овала.
 
@@ -145,7 +145,7 @@ python .\ImageProcessing.py -i test_image.png -o test_noize.png -f noize --param
 
 1. **Использование:**
 ```bash
-ython .\ImageProcessing.py -i test_image.png -o test_neon.png -f neon --params glow_color=(0, 255, 230) intensity = 1.5 blur_radius=2
+ython .\ImageProcessing.py -i test_image.png -o test_neon.png -f neon --params glow_color=0 255 230 intensity = 1.5 blur_radius=2
 ```
 Принимает опциональные параметры `glow_color` (кортеж RGB, по умолчанию (0, 255, 230)) - неоновый цвет, `intensity` (по умолчанию 1.5) - порог окраски границ и `blur_radius` (> 1, по умолчанию 2) - радиус заполнения неоновых границ.
 
